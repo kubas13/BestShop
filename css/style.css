@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+    --button-radius: 35px;
+    --color-primary: #08a6e4;
+    --color-primary-shadow: rgba(7, 172, 230, 0.16);
+    --color-redish: #fb3b64;
+    --color-green: #55dfb4;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-grey: #a5a5a5;
+    --color-light-grey: #f7f7f7;
+}
+
+body {
+    font-family: var(--font-open-sans);
+}
+
+/*HEADER*/
+.page-header {
+    width: 100%;
+    background: white;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.page-header-container {
+    width:1352px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-nav-list {
+    display: flex;
+}
+
+.page-nav-list li {
+    padding: 28px;
+    color: #A5A5A5;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+
+.page-nav-list li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.page-logo {
+    display: flex;
+    text-decoration: none;
+}
+
+.page-logo p {
+    color: #08A6E4;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+/*OPEN-SECTION*/
+.page-open-section {
+    width: 100%;
+
+}
+
+.page-open-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.page-open-header {
+    font-family: var(--font-raleway);
+    font-size: 49px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.page-open-text {
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 38px;
+}
+
+.page-open-btn {
+    border-radius: 40px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 26px 160px;
+    background: #08A6E4;
+    box-shadow: 5px 10px 14px #07ACE629;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
