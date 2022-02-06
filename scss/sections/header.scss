@@ -1,0 +1,251 @@
+$font-primary: "Raleway", sans-serif;
+$color-primary: #08A6E4;
+$color-primary-shadow: rgba(7, 172, 230, .16);
+$color-redish: #FB3B64;
+$color-green: #55DFB4;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-grey: #A5A5A5;
+$color-light-grey: #F7F7F7;
+
+@mixin mobile {
+  @media (max-width: 792px) {
+    @content;
+  }
+}
+
+//
+//.header {
+//  height: 70px;
+//  width: 100%;
+//  background: white;
+//  box-shadow: 0 3px 6px #00000029;
+//
+//
+//  &__container {
+//    height: 100%;
+//    margin: 0 auto;
+//    max-width: 1352px;
+//    display: flex;
+//    justify-content: space-between;
+//    align-items: center;
+//    padding: 0 20px;
+//  }
+//
+//  &__logo {
+//    display: flex;
+//    text-decoration: none;
+//
+//    p {
+//      color: #08A6E4;
+//      font-size: 32px;
+//      font-weight: 300;
+//      font-family: $font-primary;
+//    }
+//  }
+//
+//  &__nav {
+//    &__list {
+//      display: flex;
+//
+//      li {
+//        padding: 28px 18px 22px;
+//        border-bottom: 4px solid transparent;
+//        color: #A5A5A5;
+//        font-size: 11px;
+//        font-weight: bold;
+//        text-transform: uppercase;
+//        text-decoration: none;
+//        letter-spacing: 3px;
+//        margin-left: 30px;
+//        font-family: $font-primary;
+//
+//        &:hover {
+//          color: black;
+//          border-color: #08A6E4;
+//          cursor: pointer;
+//        }
+//      }
+//    }
+//  }
+//}
+//
+//.menu {
+//  &__btn {
+//    display: none;
+//    position: absolute;
+//    top: -9999px;
+//    left: -9999px;
+//    opacity: 0;
+//  }
+//  &__toggle {
+//    display: none;
+//
+//    span {
+//      width: 20px;
+//      height: 2px;
+//      display: block;
+//      margin-bottom: 3px;
+//      background-color: $color-primary;
+//      transition: .3s all ease-in-out;
+//
+//      &:last-child {
+//        margin-bottom: 0;
+//      }
+//    }
+//
+//
+//   @include mobile {
+//      display: block;
+//    }
+//  }
+//}
+//
+//
+//
+//@media(max-width: 792px) {
+//  .header {
+//
+//    &__nav {
+//      &__list {
+//        display: none;
+//      }
+//    }
+//  }
+//
+//
+//
+//  }
+//
+//
+
+
+.header {
+  height: 70px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .logo {
+    display: flex;
+    text-decoration: none;
+    color: #08a6e4;
+    font-family: Raleway,sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-left: 15px;
+
+  }
+
+
+  .nav {
+    &__element {
+      padding: 0 26px;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+
+    &__link {
+      color: $color-grey;
+      font-weight: 700;
+      font-size: 0.6875rem;
+      text-transform: uppercase;
+      padding: 28px 18px 22px;
+      border-bottom: 4px solid transparent;
+      letter-spacing: 0.1875rem;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-black;
+        border-color: $color-primary;
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+
+    @include mobile {
+      position: absolute;
+      left: 0;
+      top: 95px;
+      flex-direction: column;
+      background-color: white;
+      width: 100%;
+      padding-bottom: 20px;
+      display: none;
+
+      .nav__element {
+        padding: 0;
+      }
+
+      .nav__link {
+        display: block;
+        padding: 14px 20px;
+      }
+    }
+  }
+
+  .menu {
+    &__btn {
+      display: none;
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+      opacity: 0;
+
+      @include mobile {
+        &:checked {
+          ~ .header__nav {
+            display: flex;
+          }
+
+          ~ .menu__toggle {
+            span {
+              &:nth-child(1) {
+                transform: rotate(45deg) translate(2px, 5px);
+              }
+              &:nth-child(2) {
+                opacity: 0;
+              }
+              &:nth-child(3) {
+                transform: rotate(-45deg) translate(2px, -5px);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &__toggle {
+      display: none;
+      padding-right: 15px;
+
+      span {
+        width: 20px;
+        height: 2px;
+        display: block;
+        margin-bottom: 3px;
+        background-color: $color-primary;
+        transition: .3s all ease-in-out;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      @include mobile {
+        display: block;
+      }
+    }
+  }
+}
+

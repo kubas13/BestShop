@@ -1,0 +1,136 @@
+
+.statistics-section {
+
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto 150px;
+    height: auto;
+    max-width: 1352px;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  &__label {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 6px;
+    padding-top: 13px;
+    padding-bottom: 19px;
+  }
+
+  &__description {
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    color: #A5A5A5;
+    text-align: center;
+  }
+
+  &__entries {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background-color: #FB3B64;
+    position: relative;
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 10px;
+
+    &--person {
+      left: 50%;
+    }
+
+    &--eye {
+      left: 20px;
+    }
+
+    &--catalog {
+      left: 30px;
+    }
+  }
+
+  &__products {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background-color: #08A6E4;
+    position: relative;
+  }
+
+  &__posts {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background-color: #55DFB4;
+    position: relative;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  &__column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+
+
+
+@media  (max-width: 792px) {
+
+
+  .statistics-section {
+
+
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__column {
+      margin-bottom: 25px;
+    }
+  }
+
+}
+
+//statistics-section ->statistics-section
+//statistics-section-container -> statistics-section__container
+//statistics-title -> statistics-section__title
+//number-text -> statistics-section__label
+//normal-text -> statistics-section__description
+//circle1 -> statistics-section__entries
+//circle2 -> statistics-section__products
+//circle3 -> statistics-section__posts
+//statistics-section-wrapper -> statistics-section__wrapper
+//statistic-column-first -> statistics-section__column
+//statistic-column-second -> statistics-section__column
+//statistic-column-third -> statistics-section__column
+// person-image -> statistics-section__image statistics-section__image--person
+// eye-image -> statistics-section__image statistics-section__image--eye
+// catalog-image -> statistics-section__image statistics-section__image--catalog
+
+
+
+
+
+
+

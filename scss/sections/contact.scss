@@ -1,0 +1,172 @@
+.contact-section {
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+  gap: 115px;
+  margin-bottom: 60px;
+  max-width: 975px;
+  width: 100%;
+
+
+  &__info__box {
+
+
+    &__heading {
+      font-size: 49px;
+      font-weight: 400;
+      color: black;
+      font-family: "Raleway", sans-serif;
+      width: 345px;
+      margin-bottom: 22px;
+      text-align: left;
+    }
+
+
+    &__text {
+      padding-bottom: 42px;
+      text-align: left;
+    }
+
+
+    &__contact__container {
+      display: flex;
+      flex-direction: column;
+      padding: 0 10px;
+    }
+
+    &__contact__container a {
+
+      color: #a5a5a5;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      margin-bottom: 20px;
+
+
+    }
+
+    &__link__wrapper {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+
+      img {
+        margin-right: 10px;
+      }
+
+    }
+
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+    &--label {
+      text-align: left;
+      color: #08A6E4;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 3.28px;
+      padding-bottom: 3px;
+    }
+
+
+    &--input {
+      font-size: 25px;
+      appearance: none;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #95989A;
+      margin-bottom: 30px;
+    }
+
+    &__checkbox__container {
+      color: #707070;
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    &__checkbox__wrapper {
+      display: flex;
+    }
+
+
+    &__checkbox__caption {
+      font-size: 12px;
+      color: #707070;
+      text-align: left;
+      line-height: 17px;
+
+    }
+
+
+    &__input__checkbox {
+      appearance: none;
+      width: 24px;
+      height: 24px;
+      border: 1px solid #95989A;
+      border-radius: 4px;
+      margin-right: 5px;
+      cursor: pointer;
+      flex: 1 0 auto;
+    }
+
+
+
+    &__input__checkbox:checked {
+      background-image: url("../assets/Checkmark.svg");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+
+  &__form__button {
+    width: 225px;
+    height: 57px;
+    background-color: #08A6E4;
+    color: white;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 35px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    cursor:pointer;
+    align-self: flex-end;
+
+  }
+
+}
+
+@media (max-width: 1025px) {
+    .contact-section {
+      flex-direction: column;
+      margin-bottom:10px ;
+
+    &__info__box {
+
+      &__heading {
+        padding-left: 15px;
+      }
+      &__text {
+        padding-left: 15px;
+      }
+    }
+      &__form {
+        padding: 15px;
+
+      }
+      &__form__checbox__wrapper {
+        display: flex;
+      }
+
+    }
+
+}

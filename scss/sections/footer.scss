@@ -1,0 +1,41 @@
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #F7F7F7;
+  box-shadow: 0 -5px 40px #00000029;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 15px;
+
+    &__logo {
+      font-size: 26px;
+      color: #08A6E4;
+      font-family: "Raleway", sans-serif;
+      margin-bottom: 7px;
+      text-decoration: none;
+    }
+    &__rights {
+      font-size: 11px;
+      color: #A5A5A5;
+      line-height: 15px;
+      margin-top: 7px;
+    }
+  }
+  &__socials {
+    padding: 0 15px;
+
+    &__twitter {
+      margin-right: 25px;
+    }
+  }
+}
+
+
