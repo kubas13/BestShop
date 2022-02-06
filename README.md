@@ -1,2 +1,2 @@
 # BestShop
-Non responsive web design done on CL workships
+Responsive web design done on CL workships
