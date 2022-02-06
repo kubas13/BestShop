@@ -4,34 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd795a40-d2fc-41ca-a7f5-e3058c9d651e" name="Changes" comment="Creating an environment configuration">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/stylesheetLinters/stylelint.xml" afterDir="false" />
+    <list default="true" id="cd795a40-d2fc-41ca-a7f5-e3058c9d651e" name="Changes" comment="&quot;BestShop responsive&quot;">
       <change afterPath="$PROJECT_DIR$/artefakty/main.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/artefakty/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/generic/base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/generic/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/sections/benefits.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/scss/sections/calculator.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/sections/contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/sections/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/sections/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/sections/open.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/sections/pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/sections/statistics.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/variables/colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/variables/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/variables/mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../01_HTML" beforeDir="false" afterPath="$PROJECT_DIR$/../../01_HTML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/artefakty/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artefakty/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/generic/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/generic/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/generic/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/generic/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/benefits.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/open.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/open.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/variables/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/variables/colors.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Car_sharing" beforeDir="false" afterPath="$PROJECT_DIR$/../Car_sharing" afterDir="false" />
     </list>
     <list id="a144c3d0-2cfb-43ca-bb01-1c269f357310" name="Changes by aleks" comment="" />
@@ -129,7 +119,8 @@
       <workItem from="1643669126314" duration="175000" />
       <workItem from="1644096268673" duration="132000" />
       <workItem from="1644096923961" duration="22000" />
-      <workItem from="1644161398988" duration="4019000" />
+      <workItem from="1644161398988" duration="4324000" />
+      <workItem from="1644165745402" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="Adding project resources">
       <created>1642253951038</created>
@@ -187,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642770637681</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;BestShop responsive&quot;">
+      <created>1644165573062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644165573062</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +210,8 @@
     <MESSAGE value="Basic header and open section structure" />
     <MESSAGE value="BestShop for desktop" />
     <MESSAGE value="Creating an environment configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating an environment configuration" />
+    <MESSAGE value="&quot;BestShop responsive&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;BestShop responsive&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
